@@ -8,14 +8,17 @@ humheader {
 .header-items-sp {
     padding-top: 5%;
     width: 90%;
-    margin-left:5%;    
-}
-.header-item-sp {
+    margin-left:8%;    
     border: 4px solid #ff838b;
     border-radius: 0.5em 0em;
+}
+.header-item-sp {
     padding-top: 5%;
-    text-align: right;
-
+    margin-left: 70%;
+    text-align: left;
+    list-style-type: upper-roman;
+    width:25%;
+    border-bottom:1px solid #666;
 }
 
 #ham-menu {
