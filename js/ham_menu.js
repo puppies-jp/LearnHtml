@@ -7,6 +7,12 @@ const items = document.getElementsByClassName("hum-item")
 function checkbox(){
     menu_cb.click()
 }
+
+function clickLink(str){
+    menu_cb.click()
+    window.location.href= str
+}
+
 shade_layer.onclick =  checkbox
 hum_menu.onclick = checkbox
 
