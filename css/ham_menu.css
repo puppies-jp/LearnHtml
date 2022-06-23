@@ -17,7 +17,7 @@ humheader {
     margin-left: 70%;
     text-align: left;
     list-style-type: upper-roman;
-    width:25%;
+    width:20%;
     border-bottom:1px solid #666;
 }
 
@@ -95,7 +95,7 @@ humheader {
     display: none; /*チェックボックス本体は見えないようにしている*/
 }
 #menu-cb:checked ~ #ham-menu {
-    transform: translate(40%); /*メニュー本体横幅 width と合わせる*/
+    transform: translate(50%); /*メニュー本体横幅 width と合わせる*/
     text-align: left;
 }
 
