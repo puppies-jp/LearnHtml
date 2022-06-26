@@ -7,7 +7,7 @@
   margin-top: 10%;
   background-color: red;  
   height: 85vh;
-  width: 100%;
+  width: 500px;
   z-index: -50;
   overflow: auto;
   position: relative;
@@ -27,7 +27,23 @@
   width: 300px;
   position: relative;
 }
-    
+
+.self-area{
+  transform: scale(-1, 1);
+  left: 30%;
+}
+
+#self{
+  background-color: white;
+}
+#self-t{
+  color:black;
+}
+
+#self-b{
+  background-color: black;
+}
+
 .message-area {
   position: relative;
   left: 20px;
