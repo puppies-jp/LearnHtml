@@ -6,8 +6,8 @@
 .thread{
   margin-top: 10%;
   background-color: red;  
-  height: 85vh;
-  width: 500px;
+  height: 70vh;
+  width:90vh;
   z-index: -50;
   overflow: auto;
   position: relative;
@@ -16,6 +16,24 @@
     animation-name: backgroundBlackAnimation;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+}
+.offset{
+  height: 5px;
+}
+.send-area{
+  background-color:aqua;
+  margin-top: 1vh;
+  width:90vh;
+  height: 20vh;
+  z-index: -30;
+}
+
+#send{
+  width: 80%;
+  left:5%
+}
+#sendbtn{
+  height: 100%;
 }
 
 .message-window {
@@ -125,6 +143,7 @@
     padding-right: 30px;
     padding-top: 15px;
     padding-bottom: 20px;
+    min-height: 20px;
 
     line-height: 1.2em;
 
