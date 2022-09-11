@@ -33,6 +33,11 @@
   z-index: -30;
 }
 
+#sendWnd{
+  width: 80%;
+  left:5%
+}
+
 #send{
   width: 80%;
   left:5%
